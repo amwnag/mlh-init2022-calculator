@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+
+    <Grid BackgroundColor="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- I want to know how to declare variables for easy button color changes-->
+        <!-- How to I easily apply the attributes to all buttons? I want to try making all buttons rounder -->
+        <Label Text="0"
+               x:Name="result"
+               VerticalTextAlignment="Center"
+               Padding="20"
+               FontSize='36'
+               BackgroundColor="Black"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="End"
+               Grid.Row="0"
+               Grid.ColumnSpan="4"/>
+
+        <Label Text="7"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="1"/>
+
+        <Label Text="8"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="1"
+               Grid.Column="1"/>
+
+        <Label Text="9"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="1"
+               Grid.Column="2"/>
+
+        <Label Text="4"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="2"/>
+
+        <Label Text="5"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="2"
+               Grid.Column="1"/>
+
+        <Label Text="6"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="2"
+               Grid.Column="2"/>
+
+        <Label Text="1"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="3"/>
+
+        <Label Text="2"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="3"
+               Grid.Column="1"/>
+
+        <Label Text="3"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="3"
+               Grid.Column="2"/>
+
+        <Label Text="0"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="4"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+        <Label Text="."
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="Gray"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="4"
+               Grid.Column="2"/>
+
+        <Label Text="="
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="LawnGreen"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="5"
+               Grid.Column="2"
+               Grid.ColumnSpan="2"/>
+
+        <Label Text="C"
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="Orange"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="5"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+        <Label Text="+"
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="CornflowerBlue"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="1"
+               Grid.Column="3"/>
+
+        <Label Text="-"
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="CornflowerBlue"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="2"
+               Grid.Column="3"/>
+
+        <Label Text="x"
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="CornflowerBlue"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="3"
+               Grid.Column="3"/>
+        <Label Text="helloworld"/>
+
+        <Label Text="/"
+               HorizontalTextAlignment="Center"
+               FontSize='36'
+               BackgroundColor="CornflowerBlue"
+               TextColor="Black"
+               FontAttributes="Bold"
+               Grid.Row="4"
+               Grid.Column="3"/>
+        
+        <Label Text="helloworld"/>
+        <!-- Would be cool to have a swipe up for advanced functions-->
+    </Grid>
+    
+
+
+
+</ContentPage>
